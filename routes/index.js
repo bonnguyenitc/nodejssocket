@@ -12,11 +12,11 @@ var router = express.Router();
 const { Pool, Client } = require('pg');
 
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'chatting',
-  password: '0546533836',
-  port: 54321,
+  user: 'gjhpqghfdgbkzn',
+  host: 'ec2-54-227-237-27.compute-1.amazonaws.com',
+  database: 'd6v4pcrr1k6s6h',
+  password: '9a4e00dc3cb254d9ce1ae5dc3a46045b68d63c9e020488632a61a96545461368',
+  port: 5432,
 });
 
 router.get('/', function(req, res, next) {
