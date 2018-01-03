@@ -12,9 +12,9 @@ var router = express.Router();
 const { Pool, Client } = require('pg');
 
 const pool = new Pool({
-  user: 'gjhpqghfdgbkzn',
-  host: 'ec2-54-227-237-27.compute-1.amazonaws.com',
-  database: 'd6v4pcrr1k6s6h',
+  user: 'uxcfocnrxidgmu',
+  host: 'ec2-54-227-247-225.compute-1.amazonaws.com',
+  database: 'dbjsg4pfmnn0m0',
   password: '9a4e00dc3cb254d9ce1ae5dc3a46045b68d63c9e020488632a61a96545461368',
   port: 5432,
 });
